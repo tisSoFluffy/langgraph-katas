@@ -1,0 +1,5 @@
+langchain
+langgraph
+faiss-cpu
+ollama
+python-dotenv
