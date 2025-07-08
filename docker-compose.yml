@@ -1,0 +1,9 @@
+services:
+  ollama:
+    image: ollama/ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - .ollama:/root/.ollama
+    environment:
+      - MODEL_URL=https://ollama.com/library/llama3.2:1b
